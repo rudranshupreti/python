@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"9bad5c8967df98ab","type":"text","text":"builder perspective ","x":20,"y":-70,"width":200,"height":60},
+		{"id":"50f7c6e55b9c226e","type":"text","text":"user perspective","x":-340,"y":-70,"width":190,"height":60},
+		{"id":"061548cf2b2a2683","type":"text","text":"foundation model ","x":-180,"y":-280,"width":250,"height":60},
+		{"id":"200e1491e396e8c5","type":"text","text":"- prompt engineering \n- RAG\n- AI agents\n- Vector DB\n- Fine tuning\n","x":-430,"y":80,"width":250,"height":163},
+		{"id":"73b5bd16fc581aec","type":"text","text":"- RLHF\n- retreining\n- Quamtization","x":95,"y":80,"width":250,"height":163},
+		{"id":"6806860e688c9e86","type":"text","text":"builder side Data scientist ","x":-430,"y":325,"width":250,"height":60},
+		{"id":"c33d2e05448952e3","type":"text","text":"UserSide Software","x":145,"y":325,"width":200,"height":60},
+		{"id":"f82924ec4bde4e88","type":"text","text":"AI Engineer ","x":-100,"y":325,"width":186,"height":60},
+		{"id":"2e9270c53601ed5d","x":-100,"y":480,"width":144,"height":63,"type":"text","text":"Langchain \n"},
+		{"id":"f7adb5ef18a563ee","x":-387,"y":603,"width":250,"height":60,"type":"text","text":"Fundamental "},
+		{"id":"92875e6a5715d72b","x":95,"y":603,"width":250,"height":60,"type":"text","text":"AGent"},
+		{"id":"faf00ad8d3b0724f","x":-94,"y":603,"width":132,"height":60,"type":"text","text":"RAG"}
+	],
+	"edges":[
+		{"id":"2141d0479d85524c","fromNode":"061548cf2b2a2683","fromSide":"bottom","toNode":"50f7c6e55b9c226e","toSide":"top"},
+		{"id":"a84dbff90f84afbc","fromNode":"061548cf2b2a2683","fromSide":"bottom","toNode":"9bad5c8967df98ab","toSide":"top"},
+		{"id":"6820ebddb7ea7cbf","fromNode":"9bad5c8967df98ab","fromSide":"bottom","toNode":"73b5bd16fc581aec","toSide":"top"},
+		{"id":"e10717ccaf5c76af","fromNode":"50f7c6e55b9c226e","fromSide":"bottom","toNode":"200e1491e396e8c5","toSide":"top"},
+		{"id":"4c6dba7ce2a05f51","fromNode":"6806860e688c9e86","fromSide":"right","toNode":"f82924ec4bde4e88","toSide":"left"},
+		{"id":"5bed267c256f480f","fromNode":"c33d2e05448952e3","fromSide":"left","toNode":"f82924ec4bde4e88","toSide":"right"},
+		{"id":"805c4030fb00bbb7","fromNode":"f82924ec4bde4e88","fromSide":"left","toNode":"6806860e688c9e86","toSide":"right"},
+		{"id":"5040674e0edcb864","fromNode":"c33d2e05448952e3","fromSide":"left","toNode":"f82924ec4bde4e88","toSide":"right"},
+		{"id":"02675ad335249406","fromNode":"f82924ec4bde4e88","fromSide":"right","toNode":"c33d2e05448952e3","toSide":"left"},
+		{"id":"1547a6c523d96347","fromNode":"2e9270c53601ed5d","fromSide":"bottom","toNode":"faf00ad8d3b0724f","toSide":"top"},
+		{"id":"56d352bf2db5f2aa","fromNode":"2e9270c53601ed5d","fromSide":"bottom","toNode":"92875e6a5715d72b","toSide":"top"},
+		{"id":"631473ce0e229f37","fromNode":"2e9270c53601ed5d","fromSide":"bottom","toNode":"f7adb5ef18a563ee","toSide":"top"}
+	]
+}

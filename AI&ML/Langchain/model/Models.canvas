@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"8247a793361be4b4","type":"text","text":"Embedded models","x":31,"y":-97,"width":209,"height":60},
+		{"id":"ebd54155f01219f9","type":"text","text":"model\n","x":-140,"y":-200,"width":139,"height":60},
+		{"id":"7cca580a2c7d5684","type":"text","text":"language models","x":-350,"y":-97,"width":189,"height":60},
+		{"id":"ae3085f3de31c21e","type":"text","text":"Chat models","x":-223,"y":37,"width":166,"height":60},
+		{"id":"dce07a7dc6640ab8","type":"text","text":"LLMs","x":-440,"y":37,"width":117,"height":60}
+	],
+	"edges":[
+		{"id":"a688aa7c46d0ec96","fromNode":"ebd54155f01219f9","fromSide":"left","toNode":"7cca580a2c7d5684","toSide":"top"},
+		{"id":"65cad7fc551518b7","fromNode":"ebd54155f01219f9","fromSide":"right","toNode":"8247a793361be4b4","toSide":"top"},
+		{"id":"00f6542036b6341a","fromNode":"7cca580a2c7d5684","fromSide":"right","toNode":"ae3085f3de31c21e","toSide":"top"},
+		{"id":"f2be24940d436ead","fromNode":"7cca580a2c7d5684","fromSide":"left","toNode":"dce07a7dc6640ab8","toSide":"top"}
+	]
+}
